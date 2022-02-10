@@ -5,6 +5,8 @@
  */
 package tienda;
 
+import tienda.servicios.Menu;
+
 /**
  *
  * @author Skpo
@@ -14,8 +16,15 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws Exception {
+
+        try {
+            Menu.menu();
+        } catch (Exception e) {
+            throw e;
+//            e.printStackTrace();
+        }
+
     }
-    
+
 }

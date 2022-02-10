@@ -11,4 +11,8 @@ package tienda.servicios;
  */
 public class ProductoServicio {
     
+    public static void nombre() {
+        
+    }
+    
 }
